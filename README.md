@@ -1,5 +1,8 @@
 # Policies for use in the AWS Budget plugin
 
+These policies refer to the simple budget metrics specification in DSOMM:
+https://dsomm.owasp.org/activity-description?uuid=f08a3219-6941-43ec-8762-4aff739f4664&dimension=Information%20Gathering&subDimension=Monitoring&level=1&activityName=Simple%20budget%20metrics
+
 ## Testing
 
 ```shell
