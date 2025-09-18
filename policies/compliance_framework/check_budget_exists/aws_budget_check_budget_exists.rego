@@ -5,7 +5,7 @@ violation[{}] if {
 }
 
 violation[{}] if {
-	not input.BudgetName
+	not input.Budget.BudgetName
 }
 
 title := "AWS account has a budget"

@@ -3,7 +3,7 @@ package compliance_framework.check_budget_exists
 import data.compliance_framework.check_budget_exists as policy
 
 test_budget_exists_ok if {
-	inp := {"BudgetName": "Test Budget"}
+	inp := {"Budget": {"BudgetName": "Test Budget"}}
 
 	v := count(policy.violation) with input as inp
 	v == 0
