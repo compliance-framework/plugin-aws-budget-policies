@@ -6,6 +6,6 @@ violation[{}] if {
 	}
 }
 
-title := "AWS account's budget notifications are sensible"
+title := "AWS account's budget alerts are sensible"
 description := "Budgets must have at least one sensible alert, that is, an alert with threshold greater than zero."
 remarks := "Not having at least one sensible alert for a budget can create unexpected costs."
